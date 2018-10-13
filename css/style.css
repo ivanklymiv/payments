@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	padding: 30px;
+	background: url(../img/background.png) no-repeat center top / cover;
+}
+
+div {
+	background: #fff;
+	width: 336px;
+	height: 10%;
+	margin: 0 auto;
+}
+
+.name {
+	font-family: Montserrat;
+	color:  #6e7f7b;
+	font-size: 14px;
+	font-weight: 700;
+	width: 100px;
+	margin-left: 12%;
+	margin-top: 15%;
+}
+
+.top {
+	background: #f8edaf;
+	width: 336px;
+	height: 72px;
+	margin: 0 auto;
+
+}
+
+.total {
+	font-family: Montserrat;
+	color:  #a6a28d;
+	font-size: 10px;
+	font-weight: 400;
+	text-transform: uppercase;
+	width: 100px;
+	margin-left: 12%;
+	margin-top: -8%;
+}
+
+.dollar {
+	font-weight: bold;
+	font-family: Montserrat;
+	color:  #637570;
+	font-size: 36px;
+	padding-left: 44%;
+	padding-top: -15%;
+	margin-top: 16px;
+}
+
+.text {
+	font-family: Montserrat;
+	color:  #9eabad;
+	font-size: 13px;
+	font-weight: 400;
+	margin-left: 7%;
+	margin-top: 10%;
+}
+
+.date {
+	font-family: Montserrat;
+	color:  #9eabad;
+	font-size: 13px;
+	font-weight: 400;
+	margin-left: 7%;
+	margin-top: 10%;
+}
+
+.cvv {
+	font-family: Montserrat;
+	color:  #9eabad;
+	font-size: 13px;
+	font-weight: 400;
+	margin-left: 7%;
+	margin-top: 10%;
+}
+
+span {
+	font-family: Montserrat;
+	color:  #9eabad;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+button {
+	background-color:  #25b86a;
+	border: #25b86a;
+	width: 288px;
+	height: 48px;
+	font-family: Montserrat;
+	color:  #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	margin-left: 7%;
+	margin-top: 10%;
+	cursor: pointer
+}
+
+a {
+	text-decoration: underline;
+	font-family: Montserrat;
+	color:  #9eabad;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: center;
+	margin-left: 40%;
+	padding-bottom: 40px;
+}
+
+hr {
+	background-color:  #edf0f1;
+	width: 288px;
+}
+
+div > .cvvwidth {
+	border-style: solid;
+	border-width: 2px;
+	border-color:  #bac8cb;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	width: 96px;
+	height: 44px;
+	margin-left: 7%;
+	margin-bottom: 10%;
+}
+
+div > .textwidth {
+	border-style: solid;
+	border-width: 2px;
+	border-color:   #bac8cb;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	width: 288px;
+	height: 44px;
+    margin-left: 7%;
+    color: #727f82;
+}
+
+div > .datewidth {
+	border-style: solid;
+	border-width: 2px;
+	border-color:  #bac8cb;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	width: 176px;
+	height: 44px;
+	margin-left: 7%;
+	color: #727f82;
+}
+
+div > .yearwidth {
+	border-style: solid;
+	border-width: 2px;
+	border-color:  #bac8cb;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	width: 96px;
+	height: 44px;
+	margin-left: 3%;
+	color: #727f82;
+}
+
+.left {
+	height: 100%;
+	width: 50%;
+	float: left;
+	background: #f8edaf;
+}
+
+.right {
+	height: 100%;
+	width: 45%;
+	float: right;
+	background: #f8edaf;
+}
+
+.block {
+	clear: both;
+}
